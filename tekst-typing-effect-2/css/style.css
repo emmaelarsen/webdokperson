@@ -32,8 +32,9 @@ html {
 }
 
 .dots {
+    position: absolute;
+    bottom:20px;
     z-index: 2;
-    margin-bottom: 90px;
 }
 
 
@@ -45,6 +46,7 @@ html {
 
 canvas {
     background-image: url(../images/csgo4.jpg);
+    width: 100%;
     z-index: 1;
 }
 
@@ -55,6 +57,7 @@ body {
     background-image: url(../images/baggrund2.png);
     background-repeat: repeat-y;
     background-size: cover;
+    width: 100%;
 }
 
 #video {
